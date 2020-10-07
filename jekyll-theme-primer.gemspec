@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.summary       = "Primer is a Jekyll theme for GitHub Pages based on GitHub's Primer styles"
 
   s.files         = `git ls-files -z`.split("\x0").select do |f|
-    f.match(%r{^(assets|_(includes|layouts|sass)/|(LICENSE|README)((\.(txt|md)|$)))}i)
+    f.match(%r{^(assets|_(data|includes|layouts|sass)/|(LICENSE|README)((\.(txt|md)|$)))}i)
   end
 
   s.platform      = Gem::Platform::RUBY
