@@ -11,6 +11,8 @@ Gem::Specification.new do |s|
   s.files         = `git ls-files -z`.split("\x0").select do |f|
     f.match(%r{^(assets|_(data|includes|layouts|sass)/|(LICENSE|README)((\.(txt|md)|$)))}i)
   end
+  
+  spec.metadata["plugin_type"] = "theme"
 
   s.platform      = Gem::Platform::RUBY
   s.license       = 'MIT'
