@@ -13,5 +13,5 @@ $$
 ```mermaid
 graph LR
 
-A --- B
+A --- B --- C
 ```
