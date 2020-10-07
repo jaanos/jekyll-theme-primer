@@ -15,9 +15,13 @@ Gem::Specification.new do |s|
   s.platform      = Gem::Platform::RUBY
   s.license       = 'MIT'
 
-  s.add_dependency 'jekyll', '> 3.5', '< 5.0'
+  s.add_dependency 'jekyll', '>= 3.7', '< 5.0'
   s.add_runtime_dependency 'jekyll-github-metadata', '~> 2.9'
   s.add_runtime_dependency 'jekyll-seo-tag', '~> 2.0'
+  s.add_runtime_dependency "jekyll-paginate", "~> 1.1"
+  s.add_runtime_dependency "jekyll-sitemap", "~> 1.3"
+  s.add_runtime_dependency "jekyll-gist", "~> 1.5"
+  s.add_runtime_dependency "jekyll-feed", "~> 0.1"
   s.add_runtime_dependency "jekyll-include-cache", "~> 0.1"
   s.add_development_dependency 'html-proofer', '~> 3.0'
   s.add_development_dependency 'rubocop', '~> 0.50'
